@@ -5,7 +5,7 @@ html, body{
   color: rgb(171,178,191);
 }
 
-h1, h2{
+h1, h2, h3, h4{
   color: rgb(224,108,117);
 }
 
@@ -17,12 +17,13 @@ a{
   text-decoration: none;
   color: rgb(86,182,194);
 }
+a:hover{ color: rgb(171,178,191); }
 
 code{
-  background: rgba(0,0,0,.1);
+  background: rgba(0,0,0,.4);
   border-radius: 4px;
 
   color: rgb(171,178,191);
-  
+
   padding: 0 4px 0 4px;
 }
