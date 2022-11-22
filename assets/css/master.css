@@ -15,8 +15,18 @@ h1, h2, h3, h4{
 
 p{ padding: 0; margin: 0; }
 
-a{ text-decoration: none; color: rgb(86,182,194); }
-a:hover{ color: rgb(209,154,102); }
+a{
+  text-decoration: none;
+  color: rgb(86,182,194);
+
+  transition: 100ms;
+}
+a:hover{
+  color: rgb(209,154,102);
+}
+a:hover .arror-moving{
+  transform: translateX(5px);
+}
 
 code{
   background: rgba(0,0,0,.4);
@@ -25,4 +35,8 @@ code{
   color: rgb(171,178,191);
 
   padding: 0 4px 0 4px;
+}
+
+.arror-moving{
+  transition: 200ms;
 }
