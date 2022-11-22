@@ -1,10 +1,22 @@
-body{
+html, body{
   background: #282c34;
+
+  font-family: sans-serif;
   color: rgb(171,178,191);
 }
-h1, h2{ color: rgb(224,108,117); }
-p{ color: rgb(209,154,102); }
-a{ color: rgb(86,182,194); }
+
+h1, h2{
+  color: rgb(224,108,117);
+}
+
+p{
+  color: rgb(209,154,102);
+}
+
+a{
+  text-decoration: none;
+  color: rgb(86,182,194);
+}
 
 code{
   background: rgba(0,0,0,.1);
