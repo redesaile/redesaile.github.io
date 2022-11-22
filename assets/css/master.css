@@ -21,12 +21,8 @@ a{
 
   transition: 100ms;
 }
-a:hover{
-  color: rgb(209,154,102);
-}
-a:hover .arror-moving{
-  transform: translateX(5px);
-}
+a:hover{ color: rgb(209,154,102); }
+a:hover .arror-moving{ transform: translate(5px 0); }
 
 code{
   background: rgba(0,0,0,.4);
