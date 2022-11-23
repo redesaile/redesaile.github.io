@@ -22,7 +22,6 @@ a{
   transition: 100ms;
 }
 a:hover{ color: rgb(209,154,102); }
-a:hover .arrow-moving{ margin-left: 5px; }
 
 code{
   background: rgba(0,0,0,.4);
@@ -32,5 +31,3 @@ code{
 
   padding: 0 4px 0 4px;
 }
-
-.arrow-moving{ transition: 200ms; }
