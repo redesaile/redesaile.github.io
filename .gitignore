@@ -1,2 +1,5 @@
 # Windows Explorer
 desktop.ini
+
+# User-Specific Files
+*.config
