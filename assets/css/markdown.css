@@ -1,2 +1,2 @@
-code{background:rgba(0,0,0,0.4);border-radius:4px;color:rgb(171,178,191);padding:0 4px 0 4px}
+code{background:rgba(0,0,0,0.08);border-radius:4px;color:var(--color-text-master);padding:0 4px 0 4px}@media (prefers-color-scheme:dark){code{background:rgba(0,0,0,0.4)}}
 /*# sourceMappingURL=markdown.css.map */

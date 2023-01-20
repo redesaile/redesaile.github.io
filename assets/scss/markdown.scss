@@ -1,8 +1,12 @@
 code{
-  background: rgba(0,0,0,.4);
+  background: rgba(0,0,0, 8%);
   border-radius: 4px;
 
-  color: rgb(171,178,191);
+  color: var(--color-text-master);
 
   padding: 0 4px 0 4px;
+
+  @media (prefers-color-scheme: dark){
+    background: rgba(0,0,0, 40%);
+  }
 }
