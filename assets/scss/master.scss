@@ -63,20 +63,46 @@ header{
           span{ line-height: 30px; }
         }
       }
-
-      .active{
-        a{ color: var(--color-text-active); font-weight: 600; }
-
-        &:after{
-          content: '';
-          width: 100%;
-          min-height: 2px;
-          background: rgb(253,140,115);
-          position: absolute;
-          bottom: calc(50% - 25px);
-        }
-      }
     }
+  }
+}
+
+.root1{
+  li:first-child a{ color: var(--color-text-active); font-weight: 600; }
+
+  li:first-child:after{
+    content: '';
+    width: 100%;
+    min-height: 2px;
+    background: rgb(253,140,115);
+    position: absolute;
+    bottom: calc(50% - 25px);
+  }
+}
+
+.root2{
+  li:nth-child(2) a{ color: var(--color-text-active); font-weight: 600; }
+
+  li:nth-child(2):after{
+    content: '';
+    width: 100%;
+    min-height: 2px;
+    background: rgb(253,140,115);
+    position: absolute;
+    bottom: calc(50% - 25px);
+  }
+}
+
+.root3{
+  li:last-child a{ color: var(--color-text-active); font-weight: 600; }
+
+  li:last-child:after{
+    content: '';
+    width: 100%;
+    min-height: 2px;
+    background: rgb(253,140,115);
+    position: absolute;
+    bottom: calc(50% - 25px);
   }
 }
 
@@ -98,14 +124,16 @@ main{
 
 
 .repositories-list{
-  width: 100%;
   display: flex;
-  gap: 100px;
+  flex-wrap: wrap;
+  gap: 30px 40px;
+  width: 100%;
   padding: 0;
-  margin: 16px 0 48px 0;
+  margin-top: 16px;
 
   li{
-    width: 100%;
+    flex: auto;
+    min-width: 300px;
     background: radial-gradient(farthest-corner at 0 0, rgba(0,0,0, 5%), rgba(0,0,0, 2%) 20%, rgba(255,255,255, 15%));
     box-shadow: 0 8px 18px rgb(0,0,0, 20%);
     border: 1px solid rgba(0,0,0, 20%);
