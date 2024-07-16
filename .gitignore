@@ -1,5 +1,8 @@
 # Windows Explorer
 desktop.ini
 
+# Open Server Panel
+.osp
+
 # User-Specific Files
 *.config
