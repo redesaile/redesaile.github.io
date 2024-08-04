@@ -42,4 +42,7 @@
   left: -35% !important;
 }
 
-.work-islanders::before { background-image: url(/assets/images/portfolio/level_design/islanders/thumbnail.jpg); }
+.work-islanders::before {
+  background-image: url(/assets/images/portfolio/level_design/islanders/thumbnail.jpg);
+  image-rendering: pixelated;
+}
