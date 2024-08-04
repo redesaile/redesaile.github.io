@@ -1,24 +1,44 @@
 <div class="container">
+  <div class="logo"></div>
+
   <nav>
-    <ul>
+    <ul class="">
       <li>
         <a href="/">
           <i class="mdi mdi-home-variant-outline"></i>
-          <span>Home</span>
+          <span class="lang-content lang-en active"> Home </span>
+          <span class="lang-content lang-ru"> Главная </span>
         </a>
       </li>
+
       <li>
         <a href="/portfolio">
           <i class="mdi mdi-briefcase-outline"></i>
-          <span>Portfolio</span>
+          <span class="lang-content lang-en active"> Portfolio </span>
+          <span class="lang-content lang-ru"> Портфолио </span>
         </a>
       </li>
+
       <li class="sponsor">
         <a href="/sponsor">
           <i class="mdi mdi-cards-heart-outline"></i>
-          <span>Sponsor</span>
+          <span class="lang-content lang-en active"> Sponsor </span>
+          <span class="lang-content lang-ru"> Поддержать </span>
         </a>
       </li>
     </ul>
   </nav>
+
+  <div class="lang">
+    <details>
+      <summary>
+        <span class="lang-content lang-en active"> English </span>
+        <span class="lang-content lang-ru"> Русский </span>
+      </summary>
+      <ul>
+        <li> <a href="#" onclick="switchLanguage('en')">English</a> </li>
+        <li> <a href="#" onclick="switchLanguage('ru')">Русский</a> </li>
+      </ul>
+    </details>
+  </div>
 </div>

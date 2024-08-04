@@ -29,6 +29,10 @@
   @media (prefers-color-scheme: dark) { }
 }
 
+.lang-content { display: none; }
+
+.lang-content.active { display: block; }
+
 .work-cottage::before { background-image: url(/assets/images/portfolio/level_design/cottage/thumbnail.jpg); }
 
 .work-mcassets::before {

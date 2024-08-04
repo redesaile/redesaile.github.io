@@ -21,6 +21,14 @@
   --transition-master: 200ms;
   --transition-link: 100ms;
 }
+.lang-content {
+  display: none;
+}
+
+.lang-content.active {
+  display: block;
+}
+
 .work-cottage::before {
   background-image: url(/assets/images/portfolio/level_design/cottage/thumbnail.jpg);
 }
