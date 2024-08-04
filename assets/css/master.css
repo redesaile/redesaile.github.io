@@ -172,9 +172,10 @@ main {
   background-image: radial-gradient(ellipse at top left, rgba(255, 255, 255, 0.1), transparent), radial-gradient(ellipse at bottom right, rgba(100, 210, 160, 0.17), transparent);
   border-bottom: var(--border-master);
   position: relative;
+  overflow: hidden;
 }
 .profile .hero {
-  min-width: 512px;
+  width: 100%;
   max-width: 512px;
   min-height: 100%;
   max-height: 100%;
@@ -190,7 +191,7 @@ main {
   left: 0;
 }
 .profile .avatar {
-  min-width: 512px;
+  width: 100%;
   max-width: 512px;
   min-height: 100%;
   max-height: 100%;
