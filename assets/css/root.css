@@ -40,4 +40,7 @@
 
 .work-islanders::before {
   background-image: url(/assets/images/portfolio/level_design/islanders/thumbnail.jpg);
+  -ms-interpolation-mode: nearest-neighbor;
+      image-rendering: -webkit-optimize-contrast;
+      image-rendering: pixelated;
 }
