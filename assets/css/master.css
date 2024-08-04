@@ -14,7 +14,7 @@ html, body {
       -ms-flex-direction: column;
           flex-direction: column;
   background: var(--color-bg-master);
-  font-family: sans-serif;
+  font-family: montserrat, sans-serif;
   color: var(--color-text-master);
   position: absolute;
   margin: 0;
@@ -371,7 +371,7 @@ main {
 }
 .works ul li content h1 {
   font-size: 1.5em;
-  font-weight: 900;
+  font-weight: 700;
   text-align: left;
 }
 .works ul li content h1 span {
