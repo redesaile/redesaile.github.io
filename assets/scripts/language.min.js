@@ -1,0 +1,1 @@
+function switchLanguage(c){document.querySelectorAll(".lang-content").forEach((function(c){c.classList.remove("active")})),document.querySelectorAll(".lang-"+c).forEach((function(c){c.classList.add("active")}))}
