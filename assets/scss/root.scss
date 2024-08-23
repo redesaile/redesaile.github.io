@@ -32,21 +32,3 @@
 .lang-content { display: none; }
 
 .lang-content.active { display: block; }
-
-.work-cottage::before { background-image: url(/assets/images/portfolio/level_design/cottage/thumbnail.jpg); }
-
-.work-mcassets::before {
-  width: 200% !important;
-  height: 200% !important;
-  background-image: url(/assets/images/portfolio/level_design/mcassets/thumbnail.jpg);
-  background-size: 150%;
-  image-rendering: pixelated;
-  rotate: 335deg;
-  top: -50% !important;
-  left: -35% !important;
-}
-
-.work-islanders::before {
-  background-image: url(/assets/images/portfolio/level_design/islanders/thumbnail.jpg);
-  image-rendering: pixelated;
-}

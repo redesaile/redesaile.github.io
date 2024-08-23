@@ -337,6 +337,29 @@ main {
         left: 0;
       }
 
+      &:first-child::before { background-image: url(/assets/images/portfolio/level_design/cottage/thumbnail.jpg); }
+
+      &:nth-child(2)::before {
+        width: 200% !important;
+        height: 200% !important;
+        background-image: url(/assets/images/portfolio/level_design/mcassets/thumbnail.jpg);
+        background-size: 150%;
+        image-rendering: pixelated;
+        rotate: 335deg;
+        top: -50% !important;
+        left: -35% !important;
+      }
+
+      &:nth-child(3)::before {
+        background-image: url(/assets/images/portfolio/level_design/harvest/thumbnail.jpg);
+        image-rendering: pixelated;
+      }
+
+      &:last-child::before {
+        background-image: url(/assets/images/portfolio/level_design/islanders/thumbnail.jpg);
+        image-rendering: pixelated;
+      }
+
       &::after {
         content:"";
         width: 100%;
