@@ -350,11 +350,6 @@ main {
         left: -35% !important;
       }
 
-      &:nth-child(3)::before {
-        background-image: url(/assets/images/portfolio/level_design/harvest/thumbnail.jpg);
-        image-rendering: pixelated;
-      }
-
       &:last-child::before {
         background-image: url(/assets/images/portfolio/level_design/islanders/thumbnail.jpg);
         image-rendering: pixelated;
