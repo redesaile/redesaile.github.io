@@ -1,30 +1,45 @@
 :root{
-  --white: rgb(255 255 255);
+  --white: rgb(255 245 245);
   --black: rgb(18 20 18);
   --danger: rgb(220 100 58);
   --warning: rgb(220 190 58);
   --confirmed: rgb(155 205 105);
 
+  --color-currentPagePointer: rgb(140 205 135);
   --color-bg-master: rgb(34 36 35);
   --color-bg-header: rgb(37 39 38 / 95%), rgba(40 42 41 / 95%);
-  --color-bg-header-button: rgba(255 255 255 / 5%);
+  --color-bg-header-button:         rgba(255 255 255 / 5%);
   --color-bg-header-button-pressed: rgba(255 255 255 / 10%);
-  --color-currentPageIndicator: rgb(188 224 147);
-  --color-text-master: rgb(220 235 225);
-  --color-text-active: rgb(240 255 455);
-  --color-link: rgb(64 208 128);
-  --color-link-hover: rgb(64 238 146);
+  --color-header-master: rgb(225 235 225);
+  --color-header-bio:    rgb(64 203 125);
+  --color-text-master:   rgb(225 235 225);
+  --color-text-active:   rgb(245 255 245);
+  --color-link:          rgb(80 210 135);
+  --color-link-hover:    rgb(80 240 145);
 
   --border-master: 1px solid rgb(255 255 255 / 8%);
   --border-header: 1px solid rgb(255 255 255 / 15%);
 
   --borderRadius-master: .2em;
 
-  --profileAvatar: url(/assets/images/logo.svg);
-  --profileHero: url(/assets/images/profile_hero.png);
+  --img-bio-logo: url(/assets/images/logo.svg);
+  --img-bio-hero: url(/assets/images/profile_hero.png);
+  --img-portfolio-artworks: url(/assets/images/portfolio/thumbnail_artworks.png);
+  --img-portfolio-leveldev: url(/assets/images/portfolio/thumbnail_level_development.png);
 
   --transition-master: 200ms;
-  --transition-link: 100ms;
+  --transition-link:   100ms;
+
+  --link-color:        rgb(80 210 135);
+  --link-color-hover:  rgb(80 210 135);
+  --link-color-active: rgb(80 210 135);
+
+  --btn-master-bgcolor:        rgb(64 203 125 / 8%);
+  --btn-master-bgcolor-hover:  rgb(64 203 125 / 10%);
+  --btn-master-bgcolor-active: rgb(64 203 125 / 15%);
+  --btn-header-bgcolor:        rgb(255 255 255 / 0%);
+  --btn-header-bgcolor-hover:  rgb(255 255 255 / 5%);
+  --btn-header-bgcolor-active: rgb(255 255 255 / 10%);
 
   @media (prefers-color-scheme: dark) { }
 }
