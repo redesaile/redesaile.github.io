@@ -535,6 +535,7 @@ main {
   gap: 1em;
   -ms-grid-columns: 1fr 1em 1fr;
   grid-template-columns: repeat(2, 1fr);
+  padding: 0;
 }
 .artworks ul li {
   display: -webkit-box;
