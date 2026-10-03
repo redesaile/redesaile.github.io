@@ -1,0 +1,6 @@
+# Windows Explorer
+*.lnk
+desktop.ini
+
+# Compilation Results
+*.map
