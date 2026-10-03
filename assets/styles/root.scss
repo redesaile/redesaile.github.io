@@ -1,0 +1,52 @@
+:root{
+  --white: #fff5f5;
+  --black: #121412;
+
+  --color-currentPagePointer: rgb(95 200 125);
+  --color-bg-master: rgb(34 36 35);
+  --color-bg-header: rgb(37 39 38 / 95%), rgba(40 42 41 / 95%);
+  --color-bg-header-button:         rgba(255 255 255 / 5%);
+  --color-bg-header-button-pressed: rgba(255 255 255 / 10%);
+  --color-bg-card-details: rgb(30 32 31);
+  --color-header-master: rgb(225 235 225);
+  --color-header-green:  rgb(64 203 125);
+  --color-text-master:   rgb(225 235 225);
+  --color-text-active:   rgb(245 255 245);
+  --color-link:          rgb(80 210 135);
+  --color-link-hover:    rgb(80 240 145);
+
+  --bio-primary: linear-gradient(45deg, rgb(46 55 50 / 70%), rgb(58 109 71 / 30%));
+
+  --border-master: 1px solid rgb(255 255 255 / 8%);
+  --border-header: 1px solid rgb(255 255 255 / 15%);
+  --border-portfolio-categories-selected: 2px solid rgb(60 180 110);
+
+  --box-shadow-header: 0 0 20px rgb(0 0 0 / 10%);
+
+  --borderRadius-master: .2em;
+
+  --transition-master: 200ms;
+  --transition-link:   100ms;
+
+  --link-color:        rgb(80 210 135);
+  --link-color-hover:  rgb(80 210 135);
+  --link-color-active: rgb(80 210 135);
+
+  --btn-master-bgcolor:        rgb(64 203 125 / 8%);
+  --btn-master-bgcolor-hover:  rgb(64 203 125 / 10%);
+  --btn-master-bgcolor-active: rgb(64 203 125 / 15%);
+  --btn-header-bgcolor:        rgb(255 255 255 / 0%);
+  --btn-header-bgcolor-hover:  rgb(255 255 255 / 5%);
+  --btn-header-bgcolor-active: rgb(255 255 255 / 10%);
+
+  --img-portfolio-category-1: url(/assets/images/thumbnails/category-artworks.png);
+  --img-portfolio-category-2: url(/assets/images/thumbnails/category-leveldev.png);
+  --img-portfolio-category-3: url(/assets/images/thumbnails/category-assets.png);
+  --img-portfolio-category-4: url(/assets/images/thumbnails/category-all.png);
+
+  --img-wip-project-1: url(/assets/images/thumbnails/cottage-wip.jpg);
+  --img-wip-project-2: url(/assets/images/thumbnails/minecraft-assets-wip.jpg);
+  --img-wip-project-3: url(/assets/images/thumbnails/minecraft-office-wip.jpg);
+
+  @media (prefers-color-scheme: dark) { }
+}
