@@ -1,37 +1,80 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr" data-color-mode="auto" data-dark-theme="light" data-dark-theme="dark">
+<html lang="en" dir="ltr" data-color-mode="auto" data-light-theme="light" data-dark-theme="dark">
 	<head>
 		<meta charset="utf-8">
 		<title>Home - THE OWL</title>
-
 		<link rel="icon" href="/assets/images/favicons/favicon.png">
-		<link rel="stylesheet" href="/assets/fonts/mdi/materialdesignicons.css">
-		<link rel="stylesheet" href="/assets/css/markdown.css">
-		<link rel="stylesheet" href="/assets/css/master.css">
-		<link rel="stylesheet" href="/assets/css/root.css">
 
-		<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-		<script>
-			$(function() {
-				$("#header").load("/assets/html/header.html");
-				$("#footer").load("/assets/html/footer.html");
-			});
-		</script>
+		<link rel="stylesheet" href="/assets/fonts/mdi/materialdesignicons.css">
+		<link rel="stylesheet" href="/assets/fonts/montserrat/Montserrat.css">
+		<link rel="stylesheet" href="/assets/css/master.css">
+
+		<script src="/assets/libraries/jquery-1.11.3.min.js"></script>
+		<script src="/assets/scripts/language.min.js"></script>
+		<script src="/assets/scripts/builder.min.js"></script>
 	</head>
-	<body>
-		<header id="header" class="root1"></header>
+	<body class="currentroot-home">
+		<header id="header"></header>
 
 		<main>
+			<div class="bio">
+				<div class="art"></div>
+
+				<div class="container">
+					<div class="logo"></div>
+
+					<h1> THE OWL </h1>
+
+					<p class="lang-content lang-en active"> Artist / Game Developer </p>
+					<p class="lang-content lang-ru"> Художник / Разработчик игр </p>
+						
+					<div style="elsewhere">
+						<ul>
+							<li>
+								<a href="https://steamcommunity.com/id/redesaile"> <i class="mdi mdi-steam"></i> </a>
+							</li>
+							<li>
+								<a href="https://github.com/redesaile"> <i class="mdi mdi-github"></i> </a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
 			<div class="container">
-				<h1>THE OWL</h1>
-				<span>Level Artist · Level Designer · Frontend Developer</span>
-				<br><br>This website clears my mind and is not intended to provide reliable information about me.
+				<div class="works">
+					<h1 class="lang-content lang-en active"> Work in progress </h1>
+					<h1 class="lang-content lang-ru"> Работа в процессе </h1>
 
-				<h1>I'm in</h1>
-				<a href="https://github.com/redesaile">GitHub</a>, <a href="https://steamcommunity.com/id/redesaile/">Steam</a>
+					<ul>
+						<li>
+							<a href="/portfolio"></a>
+							<content>
+								<h1 class="lang-content lang-en active"> Cottage </h1>
+								<p class="lang-content lang-en active"> Hide and Seek map for Counter-Strike 2. </p>
 
-				<h1>Contact me</h1>
-				<b>Discord:</b> <span style="user-select: all;">THE OWL#5320</span>
+								<h1 class="lang-content lang-ru"> Коттедж </h1>
+								<p class="lang-content lang-ru"> Карта для пряток в Counter-Strike 2. </p>
+							</content>
+						</li>
+						<li>
+							<a href="/portfolio"></a>
+							<content>
+								<h1> Minecraft Assets </h1>
+								<p class="lang-content lang-en active"> Minecraft assets for Source engine games. </p>
+								<p class="lang-content lang-ru"> Ресурсы Minecraft для игр на движке Source. </p>
+							</content>
+						</li>
+						<li>
+							<a href="/portfolio"></a>
+							<content>
+								<h1> Islanders </h1>
+								<p class="lang-content lang-en active"> A multiplayer first-person role-playing game with shooter elements. </p>
+								<p class="lang-content lang-ru"> Многопользовательская ролевая игра от первого лица с элементами шутера.</p>
+							</content>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</main>
 
