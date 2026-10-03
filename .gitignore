@@ -1,11 +1,3 @@
 # Windows Explorer
 *.lnk
 desktop.ini
-
-# Open Server Panel
-.osp
-
-# Compilation Results
-*.map
-/assets/styles/minified
-/assets/scripts/minified
