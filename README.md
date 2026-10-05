@@ -15,7 +15,7 @@ This is a personal portfolio website. Below you can find instructions on how to 
 2. Run `minify-js.cmd` from the root folder.
 
 ### How to run locally
-For local development, this website uses the **[Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)** extension by Ritwick Dey for [Visual Studio Code](https://code.visualstudio.com/). However, you are free to use any alternative software, such as [Open Server Panel](https://ospanel.io) or other local development servers.
+This portfolio was developed using the **[Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)** extension by Ritwick Dey for [Visual Studio Code](https://code.visualstudio.com). You can run the site locally using its official documentation, or use any alternative software like [Open Server Panel](https://ospanel.io).
 
 ## License
 Do whatever you want. I don't care.
