@@ -1,5 +1,5 @@
 # User Website
-This is a personal portfolio website. Below you can find instructions on how to compile the files and run it locally on Windows.
+This is a personal portfolio website. Below you can find a guide on how to compile and run it locally on Windows.
 
 ### Pre-requisites
 1. Install **[Node.js](https://nodejs.org)**
