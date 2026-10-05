@@ -386,16 +386,6 @@ main {
     border-radius: var(--borderRadius-master);
     position: relative;
 
-    &:hover {
-      img { scale: 1.1; rotate: 2deg; }
-
-      div { opacity: 1; }
-
-      &:nth-child(even) {
-        img { scale: 1.1; rotate: -2deg; }
-      }
-    }
-
     img {
       display: flex;
       flex: auto;
@@ -419,6 +409,7 @@ main {
     div {
       width: 100%;
       background-image: linear-gradient(0deg, var(--color-bg-card-details), transparent);
+      visibility: hidden;
       opacity: 0;
       pointer-events: none;
       user-select: none;
@@ -431,6 +422,16 @@ main {
 
       h2 {
         font-size: 1.25em;
+      }
+    }
+
+    &:hover {
+      img { scale: 1.1; rotate: 2deg; }
+
+      div { visibility: visible; opacity: 1; }
+
+      &:nth-child(even) {
+        img { scale: 1.1; rotate: -2deg; }
       }
     }
   }
