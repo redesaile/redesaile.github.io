@@ -18,6 +18,4 @@ This is a personal portfolio website. Below you can find instructions on how to 
 This portfolio was developed using the **[Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)** extension by Ritwick Dey for [Visual Studio Code](https://code.visualstudio.com). You can run the site locally using its official documentation, or use any alternative software like [Open Server Panel](https://ospanel.io).
 
 ## License
-Do whatever you want. I don't care.
-
-[MIT](LICENSE) - Copyright (c) 2026 THE OWL
+Licensed under the [MIT License](LICENSE).
